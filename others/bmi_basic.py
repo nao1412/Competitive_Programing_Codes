@@ -1,0 +1,5 @@
+height = input('身長(m)?:')
+height = float(height)
+weight = float(input('体重(kg)?:'))
+bmi = weight / pow(height,2)
+print('BMI値は{:.1f}です。'.format(bmi))

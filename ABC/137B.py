@@ -1,0 +1,5 @@
+k, x = map(int, input().split())
+a = list(range(x-k+1, x+k))
+c = map(str, a)
+b = ' '.join(c)
+print(b)
