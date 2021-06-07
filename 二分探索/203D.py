@@ -1,5 +1,3 @@
-#二次元累積和、二分探索
-
 import sys
 sys.setrecursionlimit(10**7) # 再帰回数を増やす
 def I(): return int(input())
