@@ -10,6 +10,7 @@ def H(n): return [input() for i in range(n)]
 mod = 10**9 + 7
 
 def main():
-  print('がんばれ！')
+  a, b = MI()
+  print(a * b /100)
 if __name__ == '__main__':
   main()
