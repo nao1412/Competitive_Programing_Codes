@@ -12,7 +12,6 @@ mod = 10**9 + 7
 def main():
   s = S()
   t = S()
-  
   ls = len(s)
   lt = len(t)
 
