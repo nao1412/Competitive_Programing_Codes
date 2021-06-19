@@ -3,7 +3,7 @@
 ''' 再起関数 '''
 def GCD(a, b):
   if b == 0: return a
-  else: return gcd(b, a%b)
+  else: return GCD(b, a%b)
 
 ''' ユークリッドの互除法 '''
 def GCD(a, b):
