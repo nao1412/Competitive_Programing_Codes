@@ -16,3 +16,5 @@ def prime_factorize(n):
   if n != 1:
     a.append(n)
   return a         # 素因数分解のリストを返す
+
+

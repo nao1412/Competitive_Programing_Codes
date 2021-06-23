@@ -12,8 +12,10 @@ mod = 10**9 + 7
 def main():
   n, m = MI()
   s = []
+  guki = []
   for _ in range(n):
-    s.append(S())
-  
+    a = S()
+    s.append(a)
+    
 if __name__ == '__main__':
   main()
